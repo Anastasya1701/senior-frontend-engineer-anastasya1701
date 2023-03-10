@@ -1,0 +1,120 @@
+.react-dropdown-tree-select .dropdown .dropdown-trigger.arrow.bottom:after {
+    content: "\25BC";
+    vertical-align: middle;
+    color: #3c3c3c;
+    cursor: pointer;
+}
+
+.spanCategories {
+    display: block;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    margin-bottom: 4px;
+}
+
+.react-dropdown-tree-select {
+    flex-basis: auto;
+}
+.react-dropdown-tree-select .dropdown {
+    position: relative;
+    display: table;
+}
+
+.react-dropdown-tree-select .dropdown .dropdown-trigger.arrow {
+    line-height: 1.5rem;
+    border: none;
+    border-radius: 8px;
+    padding: 11px 5px;
+    transition: box-shadow 120ms ease-in-out,padding 120ms ease-in-out;
+    text-align: right;
+    box-shadow: 0 0 0 1px #999;
+    display: flex;
+    align-items: center;
+}
+
+.react-dropdown-tree-select .dropdown .dropdown-trigger {
+    padding: 4px;
+    line-height: 20px;
+    max-height: 200px;
+    display: inline-block;
+    overflow: auto;
+    border: 1px solid #b9b9b9;
+}
+
+.react-dropdown-tree-select .dropdown .dropdown-trigger.arrow.top:after {
+    content: "\25B2";
+    vertical-align: middle;
+    color: #3c3c3c;
+}
+
+.tag-list {
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+.tag-item:last-child {
+    margin-right: 4px;
+}
+
+.tag-item .search {
+    border: none;
+    outline: none;
+}
+
+.tag-item {
+    display: inline-block;
+}
+
+.react-dropdown-tree-select .dropdown .dropdown-content {
+    position: absolute;
+    padding: 4px;
+    z-index: 1;
+    background: #fff;
+    border-top: 1px solid rgba(0,0,0,.05);
+    box-shadow: 0 5px 8px rgb(0 0 0 / 15%);
+    border-radius: 8px;
+    width: 100%;
+}
+
+.react-dropdown-tree-select .dropdown .dropdown-content ul {
+    margin: 0;
+    padding: 0;
+}
+
+.node {
+    list-style: none;
+    white-space: nowrap;
+    padding: 4px;
+}
+
+.toggle {
+    white-space: pre;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+.toggle.collapsed:after {
+    content: "+";
+}
+
+.node>label {
+    cursor: pointer;
+    margin-left: 2px;
+}
+
+.checkbox-item, .radio-item {
+    vertical-align: middle;
+    margin: 0 4px 0 0;
+}
+
+.node>label {
+    cursor: pointer;
+    margin-left: 2px;
+}
+
+.node {
+    list-style: none;
+    white-space: nowrap;
+    padding: 4px;
+}
